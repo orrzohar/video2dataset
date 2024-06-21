@@ -2,7 +2,7 @@ subsampling: {}
 
 reading:
     yt_args:
-        download_size: 360
+        download_size: 384
         download_audio_rate: 44100
         yt_metadata_args:
             writesubtitles:  'all'
@@ -18,7 +18,7 @@ storage:
     captions_are_subtitles: False
 
 distribution:
-    processes_count: 16
-    thread_count: 32
+    processes_count: 14
+    thread_count: 30
     subjob_size: 1000
     distributor: "multiprocessing"
